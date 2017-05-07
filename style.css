@@ -1,0 +1,42 @@
+html{
+  background: Maroon;
+}
+body{
+  background: white;
+  max-width: 30%;
+  border: 2px solid white;
+  font-family: 'ABeeZee';font-size: 12px;
+}
+
+
+fieldset{
+  background: white;
+}
+
+
+legend {
+  color: red;
+}
+
+label {
+    color: black;
+    float: left;
+    width: em;
+    text-align: left;}
+
+input {
+    width: 8em;
+}
+
+#button{
+    width: 4em;
+    margin-left: 2em;
+    margin-top: 1em;
+}
+
+@media print {
+  body {
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%); 
+  }
+}
